@@ -1,14 +1,137 @@
-[
-  {
-    "id": 1,
-    "title": "Post 1"
-  },
-  {
-    "id": 2,
-    "title": "Post 2"
-  },
-  {
-    "id": 3,
-    "title": "Post 3"
-  }
-]
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 9,
+            "name": "Floor1",
+            "shifts": [
+                {
+                    "id": 2,
+                    "name": "Evening",
+                    "areas": [
+                        {
+                            "id": 5,
+                            "name": "Area1",
+                            "checklist": {
+                                "id": 10,
+                                "name": "Checklist1"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "name": "Area2",
+                            "checklist": null
+                        }
+                    ],
+                    "created_at": "2024-06-12T11:51:13.000000Z",
+                    "updated_at": "2024-06-12T11:51:13.000000Z"
+                },
+                {
+                    "id": 3,
+                    "name": "Morning",
+                    "areas": [
+                        {
+                            "id": 5,
+                            "name": "Area1",
+                            "checklist": {
+                                "id": 11,
+                                "name": "Checklist1"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "name": "Area2",
+                            "checklist": null
+                        }
+                    ],
+                    "created_at": "2024-06-17T08:18:18.000000Z",
+                    "updated_at": "2024-06-17T08:18:18.000000Z"
+                }
+            ],
+            "created_at": "2024-06-17T08:54:06.000000Z",
+            "updated_at": "2024-06-17T08:54:06.000000Z"
+        },
+        {
+            "id": 10,
+            "name": "Floor2",
+            "shifts": [
+                {
+                    "id": 2,
+                    "name": "Evening",
+                    "areas": [
+                        {
+                            "id": 5,
+                            "name": "Area1",
+                            "checklist": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "Area2",
+                            "checklist": null
+                        }
+                    ],
+                    "created_at": "2024-06-12T11:51:13.000000Z",
+                    "updated_at": "2024-06-12T11:51:13.000000Z"
+                }
+            ],
+            "created_at": "2024-06-17T08:54:52.000000Z",
+            "updated_at": "2024-06-17T08:54:52.000000Z"
+        },
+        {
+            "id": 11,
+            "name": "Floor2",
+            "shifts": [
+                {
+                    "id": 2,
+                    "name": "Evening",
+                    "areas": [
+                        {
+                            "id": 5,
+                            "name": "Area1",
+                            "checklist": {
+                                "id": 14,
+                                "name": "Floor2"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "name": "Area2",
+                            "checklist": {
+                                "id": 12,
+                                "name": "Checklist2"
+                            }
+                        }
+                    ],
+                    "created_at": "2024-06-12T11:51:13.000000Z",
+                    "updated_at": "2024-06-12T11:51:13.000000Z"
+                },
+                {
+                    "id": 3,
+                    "name": "Morning",
+                    "areas": [
+                        {
+                            "id": 5,
+                            "name": "Area1",
+                            "checklist": {
+                                "id": 15,
+                                "name": "Floor2"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "name": "Area2",
+                            "checklist": {
+                                "id": 13,
+                                "name": "Checklist2"
+                            }
+                        }
+                    ],
+                    "created_at": "2024-06-17T08:18:18.000000Z",
+                    "updated_at": "2024-06-17T08:18:18.000000Z"
+                }
+            ],
+            "created_at": "2024-06-17T08:58:28.000000Z",
+            "updated_at": "2024-06-17T08:58:28.000000Z"
+        }
+    ]
+}
